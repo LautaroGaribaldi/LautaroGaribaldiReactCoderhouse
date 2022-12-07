@@ -6,7 +6,7 @@ const stock = 22;
 const [cantidad, setCantidad] = useState(0);
 const sumar = () => {if(cantidad<stock){setCantidad(cantidad + 1)}};
 const restar = () => {if (cantidad >0){setCantidad(cantidad - 1)}};
-const comprar = () =>{document.getElementById("caca").innerHTML = (parseInt(document.getElementById("caca").innerHTML) + cantidad)}
+const comprar = () =>{document.getElementById("cardWidget").innerHTML = (parseInt(document.getElementById("cardWidget").innerHTML) + cantidad)}
 
   return (
     <div>

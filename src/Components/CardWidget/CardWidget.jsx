@@ -5,7 +5,7 @@ export const CardWidget = () => {
   return (
     <div>
         <Cart />
-        <span id='caca'>0</span>
+        <span id='cardWidget'>0</span>
     </div>
   )
 }
